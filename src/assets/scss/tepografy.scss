@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "Century Gothic";
+    src: url("../fonts/11528.ttf");
+}
+
+@font-face {
+    font-family: "Barkentina Test";
+    src: url("../fonts/8735.otf");
+}
+
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("../fonts/Caviar_Dreamsttf.ttf");
+}
+@font-face {
+    font-family: "Book Antiqua";
+    src: url("../fonts/Book_Antiqua.ttf");
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.display-1 {
+    color: $black;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-family: Barkentina Test;
+    font-size: calc(4vw + 3rem);
+}
+h2{
+    font-size: calc(2vw + 1rem);   
+    font-family: Barkentina Test;
+}
+.h2-p{
+    font-family: "Book Antiqua";
+    font-size: 23px; 
+    line-height: 1; 
+}
+.slider{
+    p{
+        font-family: 'Caviar Dreams', sans-serif;  
+        font-weight: 300;
+        font-size: 35px;
+        color: $black;
+    }
+    .p-italic{
+        font-family: "Book Antiqua";
+        font-style: italic;
+        font-size: 28px;
+        line-height: 1.0;
+    }
+}
+
+.menu {
+    a {
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 18px;
+        text-align: left;
+        color: #000;
+    }
+}

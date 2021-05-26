@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"cSpell.ignoreWords": [
+			"lubid"
+		],
+		"cSpell.language": "en,ru,ru-RU,uk"
+	}
+}

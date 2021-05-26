@@ -1,0 +1,11 @@
+.btn {
+    border-radius: 21.5px;
+    background: #009100;
+    box-shadow: 4px 4px 10px rgba(0, 145, 0, 0.56);
+    color: $white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    &:hover{
+        color: $white;  
+    }
+}
