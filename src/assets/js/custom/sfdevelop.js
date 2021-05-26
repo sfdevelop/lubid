@@ -40,3 +40,17 @@ $(document).ready(function () {
 		autoplaySpeed: 6000
 	});
 });
+// main comments slider
+$(document).ready(function () {
+	$('.seed_slider').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: false,
+		pauseOnHover: false,
+		autoplay: true,
+		rows: 0,
+		autoplaySpeed: 6000
+	});
+});

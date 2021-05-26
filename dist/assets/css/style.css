@@ -7989,6 +7989,13 @@ h2 {
     font-family: Barkentina Test;
 }
 
+h3 {
+    font-family: Barkentina Test;
+    font-weight: normal;
+    font-size: 25px;
+    color: #000;
+}
+
 .h2-p {
     font-family: "Book Antiqua";
     font-size: 23px;
@@ -9032,8 +9039,46 @@ h2 {
     background-color: burlywood;
 }
 
-.who_is {
-    background-image: url(../i/logo_little_white.svg), url(../i/left_back.svg), url(../i/right_back.svg);
-    background-repeat: no-repeat,  no-repeat,  no-repeat;
-    background-position: center center,  5% 5%,  95% 95%;
+.main_who_is {
+    background-image: url(../i/swan.png), url(../i/door.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 30px, 95% 95%;
+}
+
+.main_who_is .mb-150 {
+    padding-bottom: 200px;
+}
+
+.main_who_is .ml-150 {
+    padding-left: 150px;
+}
+
+.main_advantages p {
+    text-align: center;
+}
+
+.main_advantages h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.main_seed .slick-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main_seed .seed__box {
+    border-radius: 14px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.28);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.28);
+}
+
+.main_seed .seed__box img {
+    width: 30px;
+}
+
+.main_seed .seed__box p {
+    text-align: center;
 }

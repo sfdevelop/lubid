@@ -47,7 +47,7 @@
             font-size: 14px;
             text-align: center;
             color: $green;
-            border-color: $green;            
+            border-color: $green;
         }
     }
 }
@@ -70,19 +70,57 @@
 .green {
     background-color: burlywood;
 }
-.who_is{
-    background-image: 
-    url(../i/logo_little_white.svg), 
-    url(../i/left_back.svg), 
-    url(../i/right_back.svg); 
 
-    background-repeat: 
-    no-repeat, 
-    no-repeat, 
-    no-repeat;
-    
-    background-position: 
-    center center, 
-    5% 5%, 
-    95% 95%;
+.main_who_is {
+    background-image:
+        url(../i/swan.png),
+        url(../i/door.png);
+
+    background-repeat:
+        no-repeat,
+        no-repeat;
+
+    background-position:
+        left 30px,
+        95% 95%;
+
+    .mb-150 {
+        padding-bottom: 200px;
+    }
+
+    .ml-150 {
+        padding-left: 150px;
+    }
+}
+
+.main_advantages {
+    p {
+        text-align: center;
+    }
+
+    h3 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+
+.main_seed {
+    .slick-list{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .seed__box {
+        border-radius: 14px;
+        background: #fff;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.28);
+
+        img {
+            width: 30px;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
 }

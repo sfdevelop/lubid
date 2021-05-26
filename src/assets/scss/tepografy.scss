@@ -14,6 +14,7 @@
     font-family: "Caviar Dreams";
     src: url("../fonts/Caviar_Dreamsttf.ttf");
 }
+
 @font-face {
     font-family: "Book Antiqua";
     src: url("../fonts/Book_Antiqua.ttf");
@@ -31,23 +32,35 @@ body {
     font-family: Barkentina Test;
     font-size: calc(4vw + 3rem);
 }
-h2{
-    font-size: calc(2vw + 1rem);   
+
+h2 {
+    font-size: calc(2vw + 1rem);
     font-family: Barkentina Test;
 }
-.h2-p{
-    font-family: "Book Antiqua";
-    font-size: 23px; 
-    line-height: 1; 
+
+h3 {
+    font-family: Barkentina Test;
+    font-weight: normal;
+    font-size: 25px;
+    color: $black;
+
 }
-.slider{
-    p{
-        font-family: 'Caviar Dreams', sans-serif;  
+
+.h2-p {
+    font-family: "Book Antiqua";
+    font-size: 23px;
+    line-height: 1;
+}
+
+.slider {
+    p {
+        font-family: 'Caviar Dreams', sans-serif;
         font-weight: 300;
         font-size: 35px;
         color: $black;
     }
-    .p-italic{
+
+    .p-italic {
         font-family: "Book Antiqua";
         font-style: italic;
         font-size: 28px;
