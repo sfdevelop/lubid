@@ -1,13 +1,96 @@
-@media(min-width:992px)and(max-width:1199px) {}
+@media(min-width: 992px) and(max-width: 1199px) {
+  .menu {
+    ul {
+      li {
+        a {
+          font-size: 16px !important;
+        }
+      }
+    }
+
+  }
+}
 
 // -------------------------------------------992
-@media(min-width:992px)and(max-width:1199px) {}
+@media(min-width: 992px) and(max-width: 1199px) {
+}
 
 // -------------------------------------------768
-@media(min-width:768px)and(max-width:991px) {}
+@media(min-width: 768px) and(max-width: 991px) {
+  .main_who_is {
+    background-image: url(../i/swan.png) !important;
+
+    background-repeat: no-repeat !important;
+
+    background-position: -200px 30px !important;
+  }
+  .main_who_is .ml-150 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  footer ul a, footer ul a:hover{
+    font-size: 13px!important;
+  }
+}
 
 // --------------------------------------------576
-@media(min-width:576px)and(max-width:767px) {}
+@media(min-width: 576px) and(max-width: 767px) {
+  .slider p {
+    font-size: 27px !important;
+  }
+  .slider .p-italic {
+    font-size: 23px !important;
+  }
+  .main_who_is {
+    background-image: url(../i/swan.png) !important;
+
+    background-repeat: no-repeat !important;
+
+    background-position: -200px 30px !important;
+  }
+  .main_who_is .ml-150 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
 
 // ----------------------------------------mobile
-@media(max-width:576px) {}
+@media(max-width: 576px) {
+  .slider {
+    img {
+      height: auto;
+      width: 150vw !important;
+      margin-right: -40vw;
+    }
+
+  }
+  .slider p {
+    font-size: 18px !important;
+  }
+  h2 {
+    font-size: 35px !important;
+  }
+  .h2-p {
+    font-size: 18px !important;
+  }
+  .main_who_is .ml-150 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .main_who_is {
+    background-image: url(../i/swan.png) !important;
+
+    background-repeat: no-repeat !important;
+
+    background-position: -200px 30px !important;
+  }
+  .ml-50 {
+    display: flex!important;
+    justify-content: center!important;
+  }
+  footer{
+    img{
+      max-width: 170px!important;
+    }
+  }
+}

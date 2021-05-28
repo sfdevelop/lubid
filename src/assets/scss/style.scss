@@ -12,10 +12,13 @@
 @import '../../../node_modules/bootstrap/scss/_card';
 
 @import '../../../bower_components/slick-carousel/slick/slick.scss';
+@import '../../../bower_components/slick-carousel/slick/slick-theme.scss';
 
 
-@import 'slick_huck'; 
-@import 'tepografy'; 
+@import 'slick_huck';
+@import 'responsive';
+@import 'tepografy';
 @import 'buttons'; 
 @import 'fancybox';  
+@import 'menu-mobile';
 @import 'sfdevelop';

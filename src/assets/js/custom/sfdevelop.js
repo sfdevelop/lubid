@@ -37,7 +37,31 @@ $(document).ready(function () {
 		pauseOnHover: false,
 		autoplay: true,
 		rows: 0,
-		autoplaySpeed: 6000
+		autoplaySpeed: 6000,
+		responsive: [{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				infinite: true,
+				dots: false
+			}
+		},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
 	});
 });
 // main comments slider
@@ -47,10 +71,49 @@ $(document).ready(function () {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		arrows: false,
-		dots: false,
+		dots: true,
 		pauseOnHover: false,
-		autoplay: true,
+		autoplay: false,
 		rows: 0,
-		autoplaySpeed: 6000
+		autoplaySpeed: 6000,
+		responsive: [{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				infinite: true,
+				dots: false
+			}
+		},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
 	});
 });
+//боковое  меню
+$(document).ready(function () {
+	$("#navToggle").click(function () {
+		$(this).toggleClass("active");
+		$(".overlay").toggleClass("open");
+		// this line ▼ prevents content scroll-behind
+		$("body").toggleClass("locked");
+	});
+	$('.mobile_li').click(function (ev) {
+		$(this).find('>ul').slideToggle();
+		ev.stopPropagation();
+	});
+});
+
+
