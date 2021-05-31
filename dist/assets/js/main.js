@@ -23512,3 +23512,15 @@ $(document).ready(function () {
 		ev.stopPropagation();
 	});
 });
+
+$( '.fancy' ).fancybox({
+	caption : function( instance, item ) {
+		var caption = $(this).data('caption') || '';
+
+		if ( item.type === 'image' ) {
+			caption = (caption.length ? caption + '<br />' : '');
+		}
+
+		return caption;
+	}
+});

@@ -44,7 +44,7 @@
 
     .btn {
       margin: auto 0 0;
-      max-width: 130px;
+      max-width: 146px;
       background: transparent;
       font-family: "Montserrat ";
       font-weight: normal;
@@ -52,6 +52,7 @@
       text-align: center;
       color: $green;
       border-color: $green;
+      box-shadow: none !important;
     }
   }
 }
@@ -326,7 +327,7 @@ footer {
 
 .comments {
   &_service {
-    font-family: "Century Gothic"!important;
+    font-family: "Century Gothic" !important;
     font-weight: normal;
     font-size: 16px;
     text-align: center;
@@ -342,13 +343,15 @@ footer {
 
     }
   }
-  .switch{
+
+  .switch {
     font-family: "Montserrat Alternates";
     font-weight: normal;
     font-size: 12px;
     text-align: left;
   }
-  .btn{
+
+  .btn {
     max-width: 130px;
     background: transparent;
     font-family: Montserrat;
@@ -357,12 +360,64 @@ footer {
     text-align: center;
     color: $green;
     border-color: $green;
+    box-shadow: none!important;
   }
 }
-.form-group{
-  input, select, textarea{
+
+.form-group {
+  input, select, textarea {
     border-radius: 14px;
     background: #fff;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.28);
+  }
+}
+.about{
+  background-image: url(../i/swan.png);
+  background-repeat: no-repeat;
+  background-position: left 30px;
+  .btn{
+    background: transparent;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #009100;
+    border-color: #009100;
+    box-shadow: none !important;
+  }
+  h3{
+    font-family: "Book Antiqua";
+    font-weight: normal;
+    font-size: 23px;
+    text-align: left;
+    color: $black;
+
+  }
+}
+.contacts{
+  .address{
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.28);
+  }
+  ul{
+    list-style: none;
+  }
+  h3{
+    font-family: "Barkentina Test";
+    font-weight: normal;
+    font-size: 25px;
+  }
+  .h2-p{
+    font-family: "Book Antiqua";
+    font-size: 16px;
+  }
+}
+.product{
+  .price{
+    font-family: "Book Antiqua";
+    font-weight: normal;
+    font-size: 18px;
+    color: $blue;
   }
 }
