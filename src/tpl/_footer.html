@@ -13,7 +13,7 @@
             </ul>
             <ul class="m-0 my-3 my-md-0 p-0 d-flex justify-content-lg-center align-items-center">
                 <li>
-                    <a class="btn" href="">Замовити дзвінок</a>
+                    <a data-toggle="modal" data-target="#call" class="btn" href="">Замовити дзвінок</a>
                 </li>
             </ul>
         </div>
@@ -21,6 +21,58 @@
     </div>
     <div class="white w-100"></div>
     <div class="container coop py-2">
-        Либідь ритуальний Дім ©2021. <a target="_blank" href="http://sfdevelop.com">Розроблено SFdevelop</a> 
+        Либідь ритуальний Дім ©2021. <a target="_blank" href="http://sfdevelop.com">Розроблено SFdevelop</a>
     </div>
 </footer>
+
+<div class="modal fade" id="call" tabindex="-1" role="dialog" aria-labelledby="call"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12">
+                        <h5>Замовити дзвінок</h5>
+                        <div class="line d-flex justify-content-center align-items-center my-3">
+                            <img class="mx-3" src="assets/i/line.svg" alt="line">
+                            <img class="swon" src="assets/i/swon_small.svg" alt="swon_small">
+                            <img class="mx-3" src="assets/i/line.svg" alt="line">
+                        </div>
+                        <div class="col-12 p-0">
+                            <form action="">
+                                <div class="col-12 p-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="" placeholder="Ваше ім'я*">
+                                    </div>
+                                </div>
+                                <div class="col-12 p-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="" placeholder="Ваш телефон*">
+                                    </div>
+                                </div>
+                                <div class="col-12 p-0">
+                                    <div class="col-12 mb-2 px-0">
+                                        <small>* Поля обов'язкові до заповнення</small>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex align-items-center p-0">
+                                        <div class="custom-control custom-switch ">
+                                            <input type="checkbox" checked class="custom-control-input" id="switch1">
+                                            <label class="custom-control-label switch" for="switch1">Даю згоду на
+                                                обробку моїх персональних данних</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 px-0">
+                                        <div class="btn">Замовити</div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

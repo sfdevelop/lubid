@@ -121,14 +121,18 @@
         </div>
 
         <div class="text row mt-3">
-            <p>
-                Вінки виготовлені із живих квітів та хвої. Наші флористи прикрасять ритуальні вінки будь-якими живими
-                квітами (роза, гвоздика, хризантема, ірис, ромашка, калла і т. д. ) та гілочки хвойних дерев (сосна,
-                ялина, ялиця) за вашого бажання. Це можуть бути, як маленькі та скромні вінки, так і великі й пишні
-                траурні вінки для похорону VIP-класу. Всі вінки з живих квітів виготовляються під кожне індивідуальне
-                замовлення з урахуванням всіх побажань замовника. Ми підберемо найбільш підходящий вінок, який
-                зворушливо і красномовно розповість про Ваші переживання
-            </p>
+            <div class="col-12">
+                <p>
+                    Вінки виготовлені із живих квітів та хвої. Наші флористи прикрасять ритуальні вінки будь-якими
+                    живими
+                    квітами (роза, гвоздика, хризантема, ірис, ромашка, калла і т. д. ) та гілочки хвойних дерев (сосна,
+                    ялина, ялиця) за вашого бажання. Це можуть бути, як маленькі та скромні вінки, так і великі й пишні
+                    траурні вінки для похорону VIP-класу. Всі вінки з живих квітів виготовляються під кожне
+                    індивідуальне
+                    замовлення з урахуванням всіх побажань замовника. Ми підберемо найбільш підходящий вінок, який
+                    зворушливо і красномовно розповість про Ваші переживання
+                </p>
+            </div>
             <div class=" col-xl-3 col-md-6 mb-4">
                 <div class="card d-flex">
                     <a class="fancy" data-fancybox="gallery1" href="assets/i/product.png"
@@ -141,7 +145,8 @@
                             <div class="price">
                                 від 3500 грн.
                             </div>
-                            <a href="article.html" class="btn btn-primary">Замовити</a>
+                            <a data-toggle="modal" data-target="#product_order" href="article.html"
+                               class="btn btn-primary">Замовити</a>
                         </div>
                     </div>
                 </div>
@@ -161,6 +166,65 @@
     </div>
 </div>
 
+<div class="modal fade" id="product_order" tabindex="-1" role="dialog" aria-labelledby="product_order"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-5 d-none d-md-inline">
+                        <img class="img-fluid" src="assets/i/product.png" alt="Вінки та корзини">
+                    </div>
+                    <div class="col-md-7 col-12">
+                        <h5>Ретуальний вінок з живих квітів №1</h5>
+                        <div class="line d-flex justify-content-center align-items-center my-3">
+                            <img class="mx-3" src="assets/i/line.svg" alt="line">
+                            <img class="swon" src="assets/i/swon_small.svg" alt="swon_small">
+                            <img class="mx-3" src="assets/i/line.svg" alt="line">
+                        </div>
+                        <p class="hp text-center">
+                            Для замовлення вкажіть Ваші дані і наш менеджер в найближчий час зв'яжеться з Вами для
+                            уточнення всіх деталей
+                        </p>
+                        <div class="col-12 p-0">
+                            <form action="">
+                                <div class="col-12 p-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="" placeholder="Ваше ім'я*">
+                                    </div>
+                                </div>
+                                <div class="col-12 p-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="" placeholder="Ваш телефон*">
+                                    </div>
+                                </div>
+                                <div class="col-12 p-0">
+                                    <div class="col-12 mb-2 px-0">
+                                        <small>* Поля обов'язкові до заповнення</small>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex align-items-center p-0">
+                                        <div class="custom-control custom-switch ">
+                                            <input type="checkbox" checked class="custom-control-input" id="switch1">
+                                            <label class="custom-control-label switch" for="switch1">Даю згоду на
+                                                обробку моїх персональних данних</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 px-0">
+                                        <div class="btn">Замовити</div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer>
 
 
@@ -176,7 +240,7 @@
             </ul>
             <ul class="m-0 my-3 my-md-0 p-0 d-flex justify-content-lg-center align-items-center">
                 <li>
-                    <a class="btn" href="">Замовити дзвінок</a>
+                    <a data-toggle="modal" data-target="#call" class="btn" href="">Замовити дзвінок</a>
                 </li>
             </ul>
         </div>
@@ -184,9 +248,61 @@
     </div>
     <div class="white w-100"></div>
     <div class="container coop py-2">
-        Либідь ритуальний Дім ©2021. <a target="_blank" href="http://sfdevelop.com">Розроблено SFdevelop</a> 
+        Либідь ритуальний Дім ©2021. <a target="_blank" href="http://sfdevelop.com">Розроблено SFdevelop</a>
     </div>
 </footer>
+
+<div class="modal fade" id="call" tabindex="-1" role="dialog" aria-labelledby="call"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12">
+                        <h5>Замовити дзвінок</h5>
+                        <div class="line d-flex justify-content-center align-items-center my-3">
+                            <img class="mx-3" src="assets/i/line.svg" alt="line">
+                            <img class="swon" src="assets/i/swon_small.svg" alt="swon_small">
+                            <img class="mx-3" src="assets/i/line.svg" alt="line">
+                        </div>
+                        <div class="col-12 p-0">
+                            <form action="">
+                                <div class="col-12 p-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="" placeholder="Ваше ім'я*">
+                                    </div>
+                                </div>
+                                <div class="col-12 p-0">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="" placeholder="Ваш телефон*">
+                                    </div>
+                                </div>
+                                <div class="col-12 p-0">
+                                    <div class="col-12 mb-2 px-0">
+                                        <small>* Поля обов'язкові до заповнення</small>
+                                    </div>
+                                    <div class="col-12 mb-2 d-flex align-items-center p-0">
+                                        <div class="custom-control custom-switch ">
+                                            <input type="checkbox" checked class="custom-control-input" id="switch1">
+                                            <label class="custom-control-label switch" for="switch1">Даю згоду на
+                                                обробку моїх персональних данних</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 px-0">
+                                        <div class="btn">Замовити</div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!--JS-->
 <script src="assets/js/main.js"></script>
 

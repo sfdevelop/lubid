@@ -360,7 +360,7 @@ footer {
     text-align: center;
     color: $green;
     border-color: $green;
-    box-shadow: none!important;
+    box-shadow: none !important;
   }
 }
 
@@ -371,11 +371,13 @@ footer {
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.28);
   }
 }
-.about{
+
+.about {
   background-image: url(../i/swan.png);
   background-repeat: no-repeat;
   background-position: left 30px;
-  .btn{
+
+  .btn {
     background: transparent;
     font-family: Montserrat;
     font-weight: 400;
@@ -385,7 +387,8 @@ footer {
     border-color: #009100;
     box-shadow: none !important;
   }
-  h3{
+
+  h3 {
     font-family: "Book Antiqua";
     font-weight: normal;
     font-size: 23px;
@@ -394,30 +397,80 @@ footer {
 
   }
 }
-.contacts{
-  .address{
+
+.contacts {
+  .address {
     border-radius: 14px;
     background: #fff;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.28);
   }
-  ul{
+
+  ul {
     list-style: none;
   }
-  h3{
+
+  h3 {
     font-family: "Barkentina Test";
     font-weight: normal;
     font-size: 25px;
   }
-  .h2-p{
+
+  .h2-p {
     font-family: "Book Antiqua";
     font-size: 16px;
   }
 }
-.product{
-  .price{
+
+.product {
+  .price {
     font-family: "Book Antiqua";
     font-weight: normal;
     font-size: 18px;
     color: $blue;
+  }
+}
+
+.modal {
+  h5 {
+    font-family: "Barkentina Test";
+    font-size: 20px;
+    text-align: center;
+    color: $black;
+  }
+
+  .hp {
+    font-family: "Book Antiqua";
+    font-weight: normal;
+    font-size: 14px;
+    color: $blue;
+  }
+
+  .swon {
+    width: 25px;
+  }
+
+  .switch {
+    font-family: "Montserrat Alternates";
+    font-weight: normal;
+    font-size: 12px;
+    color: $black;
+  }
+  .close{
+    position: absolute;
+    right: 0;
+    top: -50px;
+    color: $white;
+    opacity: 1;
+    font-size: 50px;
+  }
+  .btn{
+    background: transparent;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: $green;
+    border-color: $green;
+    box-shadow: none !important;
   }
 }
