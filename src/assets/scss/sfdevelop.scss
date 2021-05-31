@@ -15,6 +15,11 @@
   position: absolute;
   margin: 0 auto;
 }
+.article{
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
 
 .menu a {
   color: black;
@@ -23,6 +28,7 @@
 .card {
   border: none;
   height: 100%;
+  background: none;
 
   .card-body {
     .card-title {
@@ -297,6 +303,9 @@ footer {
 }
 
 .news {
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right top;
   .date {
     bottom: 0;
     left: 15px;
@@ -310,6 +319,9 @@ footer {
 }
 
 .item {
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right top;
   .item_arrow {
     a {
       font-family: "Montserrat Alternates";
@@ -326,6 +338,9 @@ footer {
 }
 
 .comments {
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right top;
   &_service {
     font-family: "Century Gothic" !important;
     font-weight: normal;
@@ -373,9 +388,12 @@ footer {
 }
 
 .about {
-  background-image: url(../i/swan.png);
-  background-repeat: no-repeat;
-  background-position: left 30px;
+  background-image: url(../i/swan.png),
+  url(../i/smoke.png);
+  background-repeat: no-repeat,
+  no-repeat;
+  background-position: left 30px,
+  right;
 
   .btn {
     background: transparent;
@@ -399,6 +417,9 @@ footer {
 }
 
 .contacts {
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right top;
   .address {
     border-radius: 14px;
     background: #fff;
@@ -420,8 +441,15 @@ footer {
     font-size: 16px;
   }
 }
-
+.products{
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .product {
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right;
   .price {
     font-family: "Book Antiqua";
     font-weight: normal;
@@ -455,15 +483,17 @@ footer {
     font-size: 12px;
     color: $black;
   }
-  .close{
+
+  .close {
     position: absolute;
     right: 0;
     top: -50px;
     color: $white;
     opacity: 1;
-    font-size: 50px;
+    font-size: 40px;
   }
-  .btn{
+
+  .btn {
     background: transparent;
     font-family: Montserrat;
     font-weight: 400;
@@ -473,4 +503,23 @@ footer {
     border-color: $green;
     box-shadow: none !important;
   }
+}
+
+.service {
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.seed_slider {
+  .seed__box:nth-child(3n) {
+    background-image: url(../i/smoke_comments.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+}
+.category{
+  background-image: url(../i/smoke.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }

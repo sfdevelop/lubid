@@ -11199,6 +11199,12 @@ h1 {
     margin: 0 auto;
 }
 
+.article {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
 .menu a {
     color: black;
 }
@@ -11206,6 +11212,7 @@ h1 {
 .card {
     border: none;
     height: 100%;
+    background: none;
 }
 
 .card .card-body .card-title {
@@ -11460,6 +11467,12 @@ footer .coop a:hover {
     color: #003274;
 }
 
+.news {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
 .news .date {
     bottom: 0;
     left: 15px;
@@ -11473,6 +11486,12 @@ footer .coop a:hover {
     text-align: left;
 }
 
+.item {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
 .item .item_arrow a {
     font-family: "Montserrat Alternates";
     font-weight: normal;
@@ -11483,6 +11502,12 @@ footer .coop a:hover {
 
 .item .item_arrow a img {
     height: 12px;
+}
+
+.comments {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .comments_service {
@@ -11528,9 +11553,9 @@ footer .coop a:hover {
 }
 
 .about {
-    background-image: url(../i/swan.png);
-    background-repeat: no-repeat;
-    background-position: left 30px;
+    background-image: url(../i/swan.png), url(../i/smoke.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 30px, right;
 }
 
 .about .btn {
@@ -11553,6 +11578,12 @@ footer .coop a:hover {
     color: #000;
 }
 
+.contacts {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
 .contacts .address {
     border-radius: 14px;
     background: #fff;
@@ -11573,6 +11604,18 @@ footer .coop a:hover {
 .contacts .h2-p {
     font-family: "Book Antiqua";
     font-size: 16px;
+}
+
+.products {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.product {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .product .price {
@@ -11613,7 +11656,7 @@ footer .coop a:hover {
     top: -50px;
     color: #fff;
     opacity: 1;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .modal .btn {
@@ -11626,4 +11669,22 @@ footer .coop a:hover {
     border-color: #009100;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+}
+
+.service {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.seed_slider .seed__box:nth-child(3n) {
+    background-image: url(../i/smoke_comments.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.category {
+    background-image: url(../i/smoke.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
