@@ -24197,7 +24197,7 @@ $(document).ready(function () {
 		ev.stopPropagation();
 	});
 });
-
+//вывод тайтла на fancybox
 $( '.fancy' ).fancybox({
 	caption : function( instance, item ) {
 		var caption = $(this).data('caption') || '';

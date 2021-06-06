@@ -9494,6 +9494,146 @@ a.close.disabled {
     color: #6c757d;
 }
 
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-heading {
+    color: inherit;
+}
+
+.alert-link {
+    font-weight: 700;
+}
+
+.alert-dismissible {
+    padding-right: 4rem;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+}
+
+.alert-primary {
+    color: #001a3c;
+    background-color: #ccd6e3;
+    border-color: #b8c6d8;
+}
+
+.alert-primary hr {
+    border-top-color: #a8b9cf;
+}
+
+.alert-primary .alert-link {
+    color: #000409;
+}
+
+.alert-secondary {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+
+.alert-secondary hr {
+    border-top-color: #c8cbcf;
+}
+
+.alert-secondary .alert-link {
+    color: #202326;
+}
+
+.alert-success {
+    color: #004b00;
+    background-color: #cce9cc;
+    border-color: #b8e0b8;
+}
+
+.alert-success hr {
+    border-top-color: #a6d8a6;
+}
+
+.alert-success .alert-link {
+    color: #001800;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-info hr {
+    border-top-color: #abdde5;
+}
+
+.alert-info .alert-link {
+    color: #062c33;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.alert-warning hr {
+    border-top-color: #ffe8a1;
+}
+
+.alert-warning .alert-link {
+    color: #533f03;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-danger hr {
+    border-top-color: #f1b0b7;
+}
+
+.alert-danger .alert-link {
+    color: #491217;
+}
+
+.alert-light {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+}
+
+.alert-light hr {
+    border-top-color: #ececf6;
+}
+
+.alert-light .alert-link {
+    color: #686868;
+}
+
+.alert-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+
+.alert-dark hr {
+    border-top-color: #b9bbbe;
+}
+
+.alert-dark .alert-link {
+    color: #040505;
+}
+
 /* Slider */
 .slick-slider {
     position: relative;
@@ -11231,6 +11371,14 @@ h1 {
     color: #000;
 }
 
+.card .card-body .card-text p {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #000;
+}
+
 .card .card-body .btn {
     margin: auto 0 0;
     max-width: 146px;
@@ -11420,6 +11568,10 @@ footer .coop a:hover {
     width: 50px;
 }
 
+.pagination {
+    list-style: none;
+}
+
 .pagination .page-link {
     border: none;
     width: 36px;
@@ -11606,13 +11758,15 @@ footer .coop a:hover {
     font-size: 16px;
 }
 
-.products {
-    background-image: url(../i/smoke.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.thanks {
+    font-family: "Book Antiqua";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #003274;
 }
 
-.product {
+.products {
     background-image: url(../i/smoke.png);
     background-repeat: no-repeat;
     background-position: right;

@@ -15,7 +15,8 @@
   position: absolute;
   margin: 0 auto;
 }
-.article{
+
+.article {
   background-image: url(../i/smoke.png);
   background-repeat: no-repeat;
   background-position: right top;
@@ -40,11 +41,20 @@
     }
 
     .card-text {
+
       font-family: "Montserrat";
       font-weight: normal;
       font-size: 14px;
       text-align: left;
       color: $black;
+
+      p {
+        font-family: "Montserrat";
+        font-weight: normal;
+        font-size: 14px;
+        text-align: left;
+        color: $black;
+      }
 
     }
 
@@ -251,6 +261,10 @@ footer {
 }
 
 .pagination {
+
+    list-style: none;
+
+
   .page-link {
     border: none;
     width: 36px;
@@ -306,6 +320,7 @@ footer {
   background-image: url(../i/smoke.png);
   background-repeat: no-repeat;
   background-position: right top;
+
   .date {
     bottom: 0;
     left: 15px;
@@ -322,6 +337,7 @@ footer {
   background-image: url(../i/smoke.png);
   background-repeat: no-repeat;
   background-position: right top;
+
   .item_arrow {
     a {
       font-family: "Montserrat Alternates";
@@ -341,6 +357,7 @@ footer {
   background-image: url(../i/smoke.png);
   background-repeat: no-repeat;
   background-position: right top;
+
   &_service {
     font-family: "Century Gothic" !important;
     font-weight: normal;
@@ -420,6 +437,7 @@ footer {
   background-image: url(../i/smoke.png);
   background-repeat: no-repeat;
   background-position: right top;
+
   .address {
     border-radius: 14px;
     background: #fff;
@@ -441,15 +459,26 @@ footer {
     font-size: 16px;
   }
 }
-.products{
+.thanks{
+  font-family: "Book Antiqua";
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: $blue;
+
+}
+
+.products {
   background-image: url(../i/smoke.png);
   background-repeat: no-repeat;
   background-position: right;
 }
+
 .product {
-  background-image: url(../i/smoke.png);
-  background-repeat: no-repeat;
-  background-position: right;
+  //background-image: url(../i/smoke.png);
+  //background-repeat: no-repeat;
+  //background-position: right;
+
   .price {
     font-family: "Book Antiqua";
     font-weight: normal;
@@ -518,7 +547,8 @@ footer {
     background-repeat: no-repeat;
   }
 }
-.category{
+
+.category {
   background-image: url(../i/smoke.png);
   background-repeat: no-repeat;
   background-position: right;
